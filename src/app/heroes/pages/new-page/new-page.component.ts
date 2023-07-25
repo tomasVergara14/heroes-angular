@@ -3,7 +3,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 import { Hero, Publisher } from '../../interfaces/hero.interface';
 import { HeroesService } from '../../services/heroes.service';
 import { ActivatedRoute, Params, Router } from '@angular/router';
-import { Observable, switchMap } from 'rxjs';
+import { switchMap } from 'rxjs';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
@@ -35,12 +35,20 @@ export class NewPageComponent implements OnInit {
     alt_img:          new FormControl<string>(''),
   })
 
+  public title: string = '';
+
   constructor(
     private heroesService: HeroesService,
     private activatedRoute: ActivatedRoute,
     private router: Router,
     private snackbar: MatSnackBar,
   ){}
+
+  get currentHero():Hero{
+    const hero = this.heroForm.value as Hero;
+
+    return hero;
+  }
 
   ngOnInit(): void {
 
@@ -52,18 +60,14 @@ export class NewPageComponent implements OnInit {
       ).subscribe( hero =>{
           if(!hero) return this.router.navigate([ '/heroes/list' ])
 
-          this.heroForm.reset( hero )
+          this.heroForm.reset( hero );
+          this.title = hero.superhero;
 
           return;
         }
       )
   }
 
-  get currentHero():Hero{
-    const hero = this.heroForm.value as Hero;
-
-    return hero;
-  }
 
   onSubmit(){
     if(this.heroForm.invalid) return
