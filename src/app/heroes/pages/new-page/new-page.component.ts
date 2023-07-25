@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { switchMap } from 'rxjs';
+import { filter, switchMap, tap } from 'rxjs';
 //Interfaces
 import { Hero, Publisher } from '../../interfaces/hero.interface';
 //Services
@@ -80,12 +80,14 @@ export class NewPageComponent implements OnInit {
       data: this.heroForm.value,
     });
 
-    dialogRef.afterClosed().subscribe(result => {
-      if( !result ) return;
-      
-      this.heroesService.deleteHero( this.currentHero.id );
+    dialogRef.afterClosed()
+    .pipe(
+      filter(( result: boolean ) => result ),                                     // true si da en 'ok', false clickea fuera o en 'cancel'
+      switchMap( ()=> this.heroesService.deleteHero( this.currentHero.id ) ),     // Si da true le pegamos al otro subscribe
+      filter( (wasDeleted: boolean) => wasDeleted )                               // Revisa si ya fue eliminado para no eliminarlo dos veces
+    )
+    .subscribe(result => {
       this.router.navigate(['/heroes/list'])
-
     });
   }
 
