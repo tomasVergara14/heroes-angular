@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environments } from 'src/environments/environments';
 import { User } from '../interfaces/user';
-import { Observable, tap } from 'rxjs';
+import { Observable, tap, of, map } from 'rxjs';
 
 @Injectable({providedIn: 'root'})
 export class AuthService {
@@ -25,6 +25,19 @@ export class AuthService {
         tap( user => this.user = user),                                     // Almacenamos el usuarios 
         tap( user => localStorage.setItem('token', user.id.toString() ) )      // Almacenamos el id en localStorage
       )
+  }
+
+  checkAuthentication():Observable<boolean>{
+
+    if(!localStorage.getItem('token')) return of(false);
+
+    const token = localStorage.getItem('token');
+
+    return this.httpClient.get<User>(`${ this.baseUrl }/users/1`)
+     .pipe(
+      tap( user => this.user = user ),
+      map( user => !!user )                                            // Devolvemos un Observable boolano, con  el primer lo convertimos en booleano en su opuesto
+     )
   }
 
   logout(){
