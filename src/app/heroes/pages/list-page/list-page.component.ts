@@ -20,8 +20,6 @@ export class ListPageComponent implements OnInit {
     this.heroesService.getHeores().subscribe((heroes)=>{
       this.heroes = heroes;
     } )
-
-    console.log(this.heroes)
   }
 
 

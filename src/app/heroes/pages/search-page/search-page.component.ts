@@ -3,12 +3,12 @@ import { FormControl } from '@angular/forms';
 import { Hero } from '../../interfaces/hero.interface';
 import { HeroesService } from '../../services/heroes.service';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-search-page',
   templateUrl: './search-page.component.html',
-  styles: [
-  ]
+  styleUrls: ['./search-page.component.scss']
 })
 export class SearchPageComponent {
 
@@ -18,6 +18,7 @@ export class SearchPageComponent {
 
   constructor(
     private heroesService: HeroesService,
+    private router: Router
   ){}
 
   searchHeroes(){
@@ -43,7 +44,7 @@ export class SearchPageComponent {
 
     this.selectedOption = hero;
     
-    console.log(event.option.value)
+    this.router.navigate([`heroes/id/`,hero.id])
 
   }
 
