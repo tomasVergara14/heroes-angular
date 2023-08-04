@@ -10,7 +10,7 @@ export class HeroesImagePipe implements PipeTransform {
     if(!hero.id && !hero.alt_img){
       return 'assets/no-image.png'
     }
-    return `assets/heroes/${hero.id}.jpg`;
+    return `${hero.alt_img}`;
   }
 
 }

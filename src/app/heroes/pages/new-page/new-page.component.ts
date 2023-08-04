@@ -15,8 +15,7 @@ import { ConfirmDialogComponent } from '../../components/confirm-dialog/confirm-
 @Component({
   selector: 'app-new-page',
   templateUrl: './new-page.component.html',
-  styles: [
-  ]
+  styleUrls: ['./new-page.component.scss']
 })
 export class NewPageComponent implements OnInit {
 

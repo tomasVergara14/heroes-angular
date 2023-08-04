@@ -13,7 +13,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne",
+      "alt_img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/184/069/products/bm_universe_cov1-8dde9c3c53566c87e316390813393748-480-0.jpg"
     },
     {
       "id": "dc-superman",
@@ -21,7 +22,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Kal-El",
+      "alt_img": "https://static01.nyt.com/images/2018/04/18/arts/18superman-oak-refer/18superman-oak10-superJumbo.jpg"
     },
     {
       "id": "dc-flash",
@@ -29,7 +31,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+      "alt_img": "https://i1.whakoom.com/large/23/03/dfa175ecca9c4178b29626c4e0c9ed71.jpg"
     },
     {
       "id": "dc-green",
@@ -38,7 +41,7 @@
       "alter_ego": "Alan Scott",
       "first_appearance": "All-American Comics #16",
       "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
-      "alt_img": "Green lantern"
+      "alt_img": "https://content.eccediciones.com/productos/5741/Green_Lantern_1.jpg"
     },
     {
       "id": "dc-arrow",
@@ -46,7 +49,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Oliver Queen",
       "first_appearance": "More Fun Comics #73",
-      "characters": "Oliver Queen"
+      "characters": "Oliver Queen",
+      "alt_img": "https://s3.amazonaws.com/comicgeeks/comics/covers/large-8924838.jpg?1686029092"
     },
     {
       "id": "dc-wonder",
@@ -54,7 +58,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Princess Diana",
       "first_appearance": "All Star Comics #8",
-      "characters": "Princess Diana"
+      "characters": "Princess Diana",
+      "alt_img": "https://content.eccediciones.com/productos/16381/cubierta_WonderWoman_39_3_PRINT_WEB.jpg"
     },
     {
       "id": "dc-martian",
@@ -62,7 +67,8 @@
       "publisher": "DC Comics",
       "alter_ego": "J\"onn J\"onzz",
       "first_appearance": "Detective Comics #225",
-      "characters": "Martian Manhunter"
+      "characters": "Martian Manhunter",
+      "alt_img": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/652235.jpg"
     },
     {
       "id": "dc-robin",
@@ -70,7 +76,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Dick Grayson",
       "first_appearance": "Detective Comics #38",
-      "characters": "Dick Grayson"
+      "characters": "Dick Grayson",
+      "alt_img": "https://i.pinimg.com/564x/3f/76/5c/3f765c913f71dd94c912cdffb6eded08.jpg"
     },
     {
       "id": "dc-blue",
@@ -78,7 +85,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Dan Garret",
       "first_appearance": "Mystery Men Comics #1",
-      "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+      "characters": "Dan Garret, Ted Kord, Jaime Reyes",
+      "alt_img": "https://static.dc.com/2023-04/press_bluebeetle_042523_9781779523242.jpg"
     },
     {
       "id": "dc-black",
@@ -86,7 +94,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Dinah Drake",
       "first_appearance": "Flash Comics #86",
-      "characters": "Dinah Drake, Dinah Lance"
+      "characters": "Dinah Drake, Dinah Lance",
+      "alt_img": "https://i.pinimg.com/originals/30/ea/d2/30ead2f7d4db73aef0b6c97d6efed08a.jpg"
     },
     {
       "id": "marvel-spider",
@@ -94,7 +103,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Peter Parker",
       "first_appearance": "Amazing Fantasy #15",
-      "characters": "Peter Parker"
+      "characters": "Peter Parker",
+      "alt_img": "https://i.pinimg.com/originals/8a/ca/7e/8aca7e0d80eb7a3998fbd153a53d8c3c.jpg"
     },
     {
       "id": "marvel-captain",
@@ -102,7 +112,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Steve Rogers",
       "first_appearance": "Captain America Comics #1",
-      "characters": "Steve Rogers"
+      "characters": "Steve Rogers",
+      "alt_img": "https://i.pinimg.com/1200x/54/47/9a/54479a3c9acb84548f605153fa8199e9.jpg"
     },
     {
       "id": "marvel-iron",
@@ -110,7 +121,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Tony Stark",
       "first_appearance": "Tales of Suspense #39",
-      "characters": "Tony Stark"
+      "characters": "Tony Stark",
+      "alt_img": "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/L4SRXS5KXBBNZMCBLAUJ5PQDZE.jpeg"
     },
     {
       "id": "marvel-thor",
@@ -118,7 +130,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Thor Odinson",
       "first_appearance": "Journey into Myster #83",
-      "characters": "Thor Odinson"
+      "characters": "Thor Odinson",
+      "alt_img": "https://upload.wikimedia.org/wikipedia/en/1/17/Thor_by_Olivier_Coipel.png"
     },
     {
       "id": "marvel-hulk",
@@ -126,7 +139,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Bruce Banner",
       "first_appearance": "The Incredible Hulk #1",
-      "characters": "Bruce Banner"
+      "characters": "Bruce Banner",
+      "alt_img": "https://c8.alamy.com/compes/2ke2rct/el-increible-comic-de-hulk-comic-de-hulk-marvel-2003-2ke2rct.jpg"
     },
     {
       "id": "marvel-wolverine",
@@ -134,7 +148,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "James Howlett",
       "first_appearance": "The Incredible Hulk #180",
-      "characters": "James Howlett"
+      "characters": "James Howlett",
+      "alt_img": "https://i.ebayimg.com/images/g/3boAAOSwPcZiZAr6/s-l1200.webp"
     },
     {
       "id": "marvel-daredevil",
@@ -142,7 +157,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Matthew Michael Murdock",
       "first_appearance": "Daredevil #1",
-      "characters": "Matthew Michael Murdock"
+      "characters": "Matthew Michael Murdock",
+      "alt_img": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/80/62d0459c7a815/clean.jpg"
     },
     {
       "id": "marvel-hawkeye",
@@ -150,7 +166,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Clinton Francis Barton",
       "first_appearance": "Tales of Suspense #57",
-      "characters": "Clinton Francis Barton"
+      "characters": "Clinton Francis Barton",
+      "alt_img": "https://cdn.marvel.com/u/prod/marvel/i/mg/3/60/5805354c527cc/clean.jpg"
     },
     {
       "id": "marvel-cyclops",
@@ -158,7 +175,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Scott Summers",
       "first_appearance": "X-Men #1",
-      "characters": "Scott Summers"
+      "characters": "Scott Summers",
+      "alt_img": "https://assets1.ignimgs.com/2019/01/24/STL1062741548363394707.jpg"
     },
     {
       "id": "marvel-silver",
@@ -166,25 +184,8 @@
       "publisher": "Marvel Comics",
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
-      "characters": "Norrin Radd"
-    },
-    {
-      "id": "dc-nightwing",
-      "superhero": "Toto",
-      "publisher": "DC Comics",
-      "alter_ego": "Allnighter",
-      "first_appearance": "Cordoba Comic #3",
-      "characters": "Barry, Luquitas 'El toro'",
-      "alt_img": "https://i.pinimg.com/564x/3f/76/5c/3f765c913f71dd94c912cdffb6eded08.jpg"
-    },
-    {
-      "id": "marvel-adam",
-      "superhero": "Adam",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Adam",
-      "first_appearance": "Heroes of the galaxy Comic #156",
-      "characters": "Adam",
-      "alt_img": "Adam"
+      "characters": "Norrin Radd",
+      "alt_img": "https://m.media-amazon.com/images/I/81kzcQBQ6zL._AC_UF1000,1000_QL80_.jpg"
     }
   ]
 }

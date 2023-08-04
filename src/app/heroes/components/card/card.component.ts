@@ -1,11 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Hero } from '../../interfaces/hero.interface';
+import { style } from '@angular/animations';
 
 @Component({
   selector: 'heroes-hero-card',
   templateUrl: './card.component.html',
-  styles: [
-  ]
+  styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
   
